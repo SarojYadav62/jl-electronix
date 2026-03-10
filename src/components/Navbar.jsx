@@ -17,7 +17,7 @@ function Navbar({ cartCount }) {
           <FaBars />
         </button>
 
-        <div className="hidden md:flex gap-5">
+        <div className="hidden md:flex gap-4">
           <Link to="/" className="flex items-center gap-1"><FaHome /> Home</Link>
           <Link to="/products" className="flex items-center gap-1"><FaBox /> Products</Link>
           <Link to="/about" className="flex items-center gap-1"><FaInfoCircle /> About</Link>
